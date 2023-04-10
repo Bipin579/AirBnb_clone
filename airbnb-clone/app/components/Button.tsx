@@ -16,7 +16,7 @@ const Button: React.FC<ButtonProps> = ({
   disabled,
   outline,
   small,
-  icon,
+  icon:Icon,
 }) => {
   return (
     <button
@@ -40,6 +40,16 @@ const Button: React.FC<ButtonProps> = ({
       
       `}
     >
+      {Icon && (
+        <Icon
+          size={24}
+          className="
+            absolute
+            left-4
+            top-3
+          "
+        />
+      )}
       {label}
     </button>
   );
