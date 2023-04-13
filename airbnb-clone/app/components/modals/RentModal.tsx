@@ -88,7 +88,7 @@ const RentModal = () => {
           <div key={item.label} className='col-span-1'>
             <CategoryInput
               onClick={(category)=>setCustomValue('category',category)}
-              selected={category==item.label}
+              selected={category==item.label }
               label={item.label}
               icon={item.icon}
             />
@@ -99,12 +99,19 @@ const RentModal = () => {
     </div>
   )
 
+  if(step===STEPS.LOCATION){
+    bodyContent=(
+      <div>
+        Location Step!
+      </div>
+    )
+  }
 
   return (
     <Modal 
         isOpen={rentModal.isOpen}
         onClose={rentModal.onCLose}
-        onSubmit={rentModal.onCLose}
+        onSubmit={onNext}
         actionLabel={actionLabel}
         secondaryActionLabel={secondaryActionLabel}
         secondaryAction={step===STEPS.CATEGORY?undefined:onBack}
