@@ -15,3 +15,11 @@ body,
   z-index: 0 !important;
 }
 
+.rdrmonth{
+  width: 100% !important;
+}
+
+.rdrCalenderWrapper{
+  font-size: 16px !important;
+  width:100% !important;
+}
