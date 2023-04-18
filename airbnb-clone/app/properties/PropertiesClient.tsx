@@ -5,14 +5,14 @@ import axios from "axios";
 import { useCallback, useState } from "react";
 import { useRouter } from "next/navigation";
 
-import { SafeUser, safeListing } from "@/app/types";
+import { SafeListing, SafeUser } from "@/app/types";
 
 import Heading from "@/app/components/Heading";
 import Container from "@/app/components/Container";
 import ListingCard from "@/app/components/listings/ListingCard";
 
 interface PropertiesClientProps {
-  listings: safeListing[],
+  listings: SafeListing[],
   currentUser?: SafeUser | null,
 }
 
@@ -23,12 +23,12 @@ const PropertiesClient: React.FC<PropertiesClientProps> = ({
   const router = useRouter();
   const [deletingId, setDeletingId] = useState('');
 
-  const onCancel = useCallback((id: string) => {
+  const onDelete = useCallback((id: string) => {
     setDeletingId(id);
 
     axios.delete(`/api/listings/${id}`)
     .then(() => {
-      toast.success('Listing Deleted');
+      toast.success('Listing deleted');
       router.refresh();
     })
     .catch((error) => {
@@ -39,7 +39,8 @@ const PropertiesClient: React.FC<PropertiesClientProps> = ({
     })
   }, [router]);
 
-  return (
+
+  return ( 
     <Container>
       <Heading
         title="Properties"
@@ -63,9 +64,9 @@ const PropertiesClient: React.FC<PropertiesClientProps> = ({
             key={listing.id}
             data={listing}
             actionId={listing.id}
-            onAction={onCancel}
+            onAction={onDelete}
             disabled={deletingId === listing.id}
-            actionLabel="Delete Property"
+            actionLabel="Delete property"
             currentUser={currentUser}
           />
         ))}

@@ -1,42 +1,48 @@
-import { Nunito } from "next/font/google";
-import "./globals.css";
-import Navbar from "./components/navbar/Navbar";
-import RegisterModal from "./components/modals/RegisterModal";
-import ToastProvider from "./providers/ToasterProvider";
-import LoginModal from "./components/modals/LoginModal";
-import getCurrentUser from "./actions/getCurrentuser";
-import RentModal from "./components/modals/RentModal";
-import SearchModals from "./components/modals/SearchModals";
-import ClientOnly from "./components/ClientOnly";
+import { Nunito } from 'next/font/google'
+
+import Navbar from '@/app/components/navbar/Navbar';
+import LoginModal from '@/app/components/modals/LoginModal';
+import RegisterModal from '@/app/components/modals/RegisterModal';
+import SearchModal from '@/app/components/modals/SearchModal';
+import RentModal from '@/app/components/modals/RentModal';
+
+import ToasterProvider from '@/app/providers/ToasterProvider';
+
+import './globals.css'
+import ClientOnly from './components/ClientOnly';
+import getCurrentUser from './actions/getCurrentUser';
 
 export const metadata = {
-  title: "AirBnb",
-  description: "This a clone of Airbnb to enhance my skills.",
-};
-const font = Nunito({
-  subsets: ["latin"],
+  title: 'Airbnb',
+  description: 'Airbnb Clone',
+}
+
+const font = Nunito({ 
+  subsets: ['latin'], 
 });
+
 export default async function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   const currentUser = await getCurrentUser();
+
   return (
     <html lang="en">
       <body className={font.className}>
         <ClientOnly>
-          <ToastProvider />
-          <SearchModals />
-          <RentModal />
+          <ToasterProvider />
           <LoginModal />
           <RegisterModal />
+          <SearchModal />
+          <RentModal />
           <Navbar currentUser={currentUser} />
         </ClientOnly>
-        <div className="pb-20 pt-28">{children}</div>
+        <div className="pb-20 pt-28">
+          {children}
+        </div>
       </body>
     </html>
-  );
+  )
 }
-
-//3:37:44

@@ -70,7 +70,7 @@ const RentModal = () => {
 
   const Map = useMemo(() => dynamic(() => import('../Map'), { 
     ssr: false 
-  }), []);
+  }), [location]);
 
 
   const setCustomValue = (id: string, value: any) => {
@@ -102,7 +102,7 @@ const RentModal = () => {
       router.refresh();
       reset();
       setStep(STEPS.CATEGORY)
-      rentModal.onCLose();
+      rentModal.onClose();
     })
     .catch(() => {
       toast.error('Something went wrong.');
@@ -279,7 +279,7 @@ const RentModal = () => {
       onSubmit={handleSubmit(onSubmit)}
       secondaryActionLabel={secondaryActionLabel}
       secondaryAction={step === STEPS.CATEGORY ? undefined : onBack}
-      onClose={rentModal.onCLose}
+      onClose={rentModal.onClose}
       body={bodyContent}
     />
   );

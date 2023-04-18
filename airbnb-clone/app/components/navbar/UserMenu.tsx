@@ -10,7 +10,7 @@ import useRegisterModal from "@/app/hooks/useRegisterModal";
 import useRentModal from "@/app/hooks/useRentModal";
 import { SafeUser } from "@/app/types";
 
-import MenuItems from "./MenuItems";
+import MenuItem from "./MenuItem";
 import Avatar from "../Avatar";
 
 interface UserMenuProps {
@@ -102,39 +102,39 @@ const UserMenu: React.FC<UserMenuProps> = ({
           <div className="flex flex-col cursor-pointer">
             {currentUser ? (
               <>
-                <MenuItems 
+                <MenuItem 
                   label="My trips" 
                   onClick={() => router.push('/trips')}
                 />
-                <MenuItems 
+                <MenuItem 
                   label="My favorites" 
                   onClick={() => router.push('/favorites')}
                 />
-                <MenuItems 
+                <MenuItem 
                   label="My reservations" 
                   onClick={() => router.push('/reservations')}
                 />
-                <MenuItems 
+                <MenuItem 
                   label="My properties" 
                   onClick={() => router.push('/properties')}
                 />
-                <MenuItems 
+                <MenuItem 
                   label="Airbnb your home" 
                   onClick={rentModal.onOpen}
                 />
                 <hr />
-                <MenuItems 
+                <MenuItem 
                   label="Logout" 
                   onClick={() => signOut()}
                 />
               </>
             ) : (
               <>
-                <MenuItems 
+                <MenuItem 
                   label="Login" 
                   onClick={loginModal.onOpen}
                 />
-                <MenuItems 
+                <MenuItem 
                   label="Sign up" 
                   onClick={registerModal.onOpen}
                 />

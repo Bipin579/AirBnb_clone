@@ -8,7 +8,7 @@ interface CategoryViewProps {
   description: string
 }
 
-const ListingCategory: React.FC<CategoryViewProps> = ({ 
+const CategoryView: React.FC<CategoryViewProps> = ({ 
   icon: Icon,
   label,
   description
@@ -34,4 +34,4 @@ const ListingCategory: React.FC<CategoryViewProps> = ({
    );
 }
  
-export default ListingCategory;
+export default CategoryView;

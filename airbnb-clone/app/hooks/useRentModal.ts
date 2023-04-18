@@ -1,16 +1,15 @@
-import { create } from "zustand";
+import { create } from 'zustand';
 
 interface RentModalStore {
-    isOpen: boolean,
-    onOpen: () => void;
-    onCLose: () => void;
+  isOpen: boolean;
+  onOpen: () => void;
+  onClose: () => void;
 }
 
-
 const useRentModal = create<RentModalStore>((set) => ({
-    isOpen: false,
-    onOpen: () => set({ isOpen: true }),
-    onCLose: () => set({ isOpen: false }),
+  isOpen: false,
+  onOpen: () => set({ isOpen: true }),
+  onClose: () => set({ isOpen: false })
 }));
 
 
