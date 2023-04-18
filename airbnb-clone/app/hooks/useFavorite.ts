@@ -1,5 +1,5 @@
 import axios from "axios";
-import { SafeUser } from "../types";
+import { SafeUser } from "@/app/types";
 import { useRouter } from "next/navigation";
 import useLoginModal from "./useLoginModal";
 import { useCallback, useMemo } from "react";
@@ -8,7 +8,7 @@ import { toast } from "react-hot-toast";
 
 interface IUseFavorite{
     listingId:string;
-    currentUser?:SafeUser|null;
+    currentUser?:SafeUser | null;
 }
 
 const useFavorite=({

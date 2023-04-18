@@ -1,8 +1,8 @@
 
 import EmptyState from "@/app/components/EmptyState";
 
-import getCurrentUser from "../actions/getCurrentuser";
-import getReservations from "../actions/getResevations";
+import getCurrentUser from "@/app/actions/getCurrentuser";
+import getReservations from "@/app/actions/getResevations";
 
 import TripsClient from "../trips/TripsClient";
 

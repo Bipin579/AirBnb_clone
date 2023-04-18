@@ -1,6 +1,6 @@
-import getCurrentUser from "../actions/getCurrentuser";
-import getFavoriteListings from "../actions/getFavoriteListings";
-import EmptyState from "../components/EmptyState";
+import getCurrentUser from "@/app/actions/getCurrentuser";
+import getFavoriteListings from "@/app/actions/getFavoriteListings";
+import EmptyState from "@/app/components/EmptyState";
 import FavoritesClient from "./FavoritesClient";
 
 const ListingPage=async()=>{

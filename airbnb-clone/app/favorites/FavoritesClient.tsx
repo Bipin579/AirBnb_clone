@@ -1,9 +1,7 @@
-"use client"
-import React from 'react'
-import { SafeUser, safeListing } from '../types'
-import Container from '../components/Container'
-import Heading from '../components/Heading';
-import ListingCard from '../components/listings/ListingCard';
+import { SafeUser, safeListing } from '@/app/types'
+import Container from '@/app/components/Container'
+import Heading from '@/app/components/Heading';
+import ListingCard from '@/app/components/listings/ListingCard';
 
 interface FavoritesClientProps{
     listings:safeListing[];
