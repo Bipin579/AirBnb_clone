@@ -10,7 +10,7 @@ import ToasterProvider from '@/app/providers/ToasterProvider';
 
 import './globals.css'
 import ClientOnly from './components/ClientOnly';
-import getCurrentUser from './actions/getCurrentUser';
+import getCurrentUser from './actions/getCurrentuser';
 
 export const metadata = {
   title: 'Airbnb',

@@ -1,5 +1,5 @@
 
-import getCurrentUser from "@/app/actions/getCurrentUser";
+import getCurrentUser from "@/app/actions/getCurrentuser";
 import getListingById from "@/app/actions/getListingById";
 import getReservations from "@/app/actions/getReservations";
 
