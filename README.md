@@ -4,14 +4,14 @@
 <hr/>
 
 
-## Collaborators-
+## :handshake:Collaborators-
 
 | Team members | Github-profiles |
 | ------ | ------ |
 | Bipin Singh | <https://github.com/Bipin579> |
 | Aakash Mukherjee  | <https://github.com/blackcode1996> | 
 
-## Tech Stack Used:
+## :space_invader:Tech Stack Used:
 
 <details>
   <summary>Client</summary>
@@ -61,7 +61,7 @@
     </tr>
 </table>
 
-## Features:
+## 🏛️Features:
 
 - Tailwind design
 - Tailwind animations and effects
