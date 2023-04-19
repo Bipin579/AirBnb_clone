@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Airbnb Clone</h1>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/99184393/185779974-a31a9f47-f8d3-42ea-b7f8-4a2971774615.png" alt="project-image" width="300" height="150/"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/99184393/185779974-a31a9f47-f8d3-42ea-b7f8-4a2971774615.png" alt="project-image" width="150" height="150/"></p>
 <hr/>
 
 
