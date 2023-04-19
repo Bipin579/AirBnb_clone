@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Airbnb Clone</h1>
 
-<p align="center"><img src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/roseburgor/LOGO-Airbnb_Lockup_Over_Gradient-dd03f6ddd54a624_dd03f869-fd79-4dd3-108ebc5210b2f0f9.png" alt="project-image" width="300" height="150/"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/99184393/185779974-a31a9f47-f8d3-42ea-b7f8-4a2971774615.png" alt="project-image" width="300" height="150/"></p>
 <hr/>
 
 
@@ -13,14 +13,24 @@
 
 ## Tech Stack Used:
 
-- Html
-- CSS
-- Tailwind
-- Next js
-- React
-- Typescript
-- Prisma
-- MomgoDB
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://#/">Typescript</a></li>
+    <li><a href="https://nextjs.org/">Next.js</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+    <li><a href="https://www.prisma.io">Prisma</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+  <li><a href="https://firebase.google.com">Mongodb</a></li>
+  <li><a href="https://cloudinary.com/">Cloudinary</a></li>
+  </ul>
+</details>
 
 ## Features:
 
