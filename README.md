@@ -49,9 +49,6 @@
                         <td>
 <a href="#"><img src="https://user-images.githubusercontent.com/99184393/180462270-ea4a249c-627c-4479-9431-5c3fd25454c4.png" alt="" width="30" height="30" /></a>
         </td>
-                                <td>
-<a href="#"><img src="https://user-images.githubusercontent.com/99184393/185779974-a31a9f47-f8d3-42ea-b7f8-4a2971774615.png" alt="" width="30"height="30"/></a>
-        </td>
                                       <td>
 <a href="#"><img src="https://user-images.githubusercontent.com/99184393/229775276-a7cb148b-7fbd-4334-a07f-f2223bc49f62.png" alt="" width="30"height="30"/></a>
         </td>
