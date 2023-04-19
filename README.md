@@ -117,7 +117,14 @@ This project is a clone of renowned american San Francisco -based company operat
 | ------ | ------ |
 | <img width="400" height="200" src="https://user-images.githubusercontent.com/110044436/233098119-d963164b-82e9-4207-861d-0238476b64f0.png"  /> | <img align="center"  width="100" height="200" src="https://user-images.githubusercontent.com/110044436/233097964-5a25a6d3-6396-4abe-a875-a91823de77ce.png"> |
 
+### Listings
+| Desktop View | Mobile View |
+| ------ | ------ |
+| <img width="400" height="200" src="https://user-images.githubusercontent.com/110044436/233105835-39d38b96-3650-4754-a037-e5a688f611fb.gif"  /> | <img align="center"  width="100" height="200" src="https://user-images.githubusercontent.com/110044436/233105722-b8490f3e-8e0a-49cf-8a4d-55aee2ca0465.gif"> |
+
 
 
 ## <a href="https://airbnd-clone-ba.vercel.app/" target="_blank">LIVE DEMO 💥</a>
+<br />
 
+<div align="center">Don't forget to leave a star ⭐️</div>
