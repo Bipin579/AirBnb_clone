@@ -41,3 +41,14 @@
 - handle files like error.tsx and loading.tsx which are new Next 13 templating files to unify loading and error handling
 - handle relations between Server and Child components!
 
+
+## Tech Stack Used:
+
+- Html
+- CSS
+- Tailwind
+- Next js
+- React
+- Typescript
+- Prisma
+- MomgoDB
