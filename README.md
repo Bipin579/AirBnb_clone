@@ -96,10 +96,26 @@ This project is a clone of renowned american San Francisco -based company operat
 
 ## :camera: Screenshots
 
-## HomePage
+### HomePage
 | Desktop View | Mobile View |
 | ------ | ------ |
 | <img width="400" height="200" src="https://user-images.githubusercontent.com/110044436/233092331-c37f7c33-ffce-41bf-ba01-e3a4b7bcb386.png"  /> | <img align="center"  width="100" height="200" src="https://user-images.githubusercontent.com/110044436/233092093-aef76163-483c-482b-b8c1-9669447b19a4.png"> |
+
+### Filters
+| Desktop View | Mobile View |
+| ------ | ------ |
+| <img width="400" height="200" src="https://user-images.githubusercontent.com/110044436/233095186-6b9cbea9-50af-4b40-884c-9ff3ad4e6493.png"  /> | <img align="center"  width="100" height="200" src="https://user-images.githubusercontent.com/110044436/233095015-3632943c-15d5-4cd2-99bd-afcd3860fca4.png"> |
+
+### Single property page
+| Desktop View | Mobile View |
+| ------ | ------ |
+| <img width="400" height="200" src="https://user-images.githubusercontent.com/110044436/233096699-6a1f3a16-ddd8-46c3-88dc-85818fc540b5.png"  /> | <img align="center"  width="100" height="200" src="https://user-images.githubusercontent.com/110044436/233096512-b779984f-840b-45f4-bdb0-119e1aabf98f.png"> |
+| <img width="400" height="200" src="https://user-images.githubusercontent.com/110044436/233097233-4f915041-cd1e-4641-80a0-66b1c6fcc45d.png"  /> | <img align="center"  width="100" height="200" src="https://user-images.githubusercontent.com/110044436/233097074-407d11a5-8d5e-495f-8382-00b45367ea9d.png"> |
+
+### My Trips
+| Desktop View | Mobile View |
+| ------ | ------ |
+| <img width="400" height="200" src="https://user-images.githubusercontent.com/110044436/233098119-d963164b-82e9-4207-861d-0238476b64f0.png"  /> | <img align="center"  width="100" height="200" src="https://user-images.githubusercontent.com/110044436/233097964-5a25a6d3-6396-4abe-a875-a91823de77ce.png"> |
 
 
 
