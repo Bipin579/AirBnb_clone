@@ -93,3 +93,13 @@
 - handle files like error.tsx and loading.tsx which are new Next 13 templating files to unify loading and error handling
 - handle relations between Server and Child components!
 
+<!-- About the Project -->
+
+## :star2: About the Project
+
+<!-- Screenshots -->
+
+### :camera: Screenshots
+
+
+## <a href="https://airbnd-clone-ba.vercel.app/" target="_blank">LIVE DEMO 💥</a>
