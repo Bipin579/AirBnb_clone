@@ -90,13 +90,38 @@
 - handle files like error.tsx and loading.tsx which are new Next 13 templating files to unify loading and error handling
 - handle relations between Server and Child components!
 
-<!-- About the Project -->
-
 ## :star2: About the Project
 
-<!-- Screenshots -->
+This project is a clone of renowned american San Francisco -based company operating an online marketplace for short-term homestays and experiences. The company acts as a broker and charges a commission from each booking.
 
-### :camera: Screenshots
+## :camera: Screenshots
+
+## HomePage
+| Desktop View | Mobile View |
+| ------ | ------ |
+| <img width="400" height="200" src="https://user-images.githubusercontent.com/110044436/233092331-c37f7c33-ffce-41bf-ba01-e3a4b7bcb386.png"  /> | <img   width="100" height="200" src="https://user-images.githubusercontent.com/110044436/233092093-aef76163-483c-482b-b8c1-9669447b19a4.png"> |
+| <img  width="400" height="200" src="https://user-images.githubusercontent.com/110034571/222943608-40b5cc24-3323-4e85-a5fc-ac798a922b89.png"  /> | <img   width="220" height="200" src="https://user-images.githubusercontent.com/110104542/224230154-3365ba57-687e-4158-9e3c-3d9a7d1e1c94.png"> |
+
+## Rules or Quick intro
+| Desktop View | Mobile View |
+| ------ | ------ |
+| <img  width="400" height="200" src="https://user-images.githubusercontent.com/110034571/222943626-2b0c1bfc-0172-4894-bd6a-ffa94759d264.png"  /> | <img  width="220" height="200" src="https://user-images.githubusercontent.com/110104542/224230650-eec1d4c4-557f-4bcf-8430-ad80b10e6e21.png"> |
+
+## Main Game
+| Desktop View | Mobile View |
+| ------ | ------ |
+| <img  width="400" height="200" src="https://user-images.githubusercontent.com/110034571/222943643-5fca9ece-f95e-47e3-bd76-f4eb865a6b0a.png"  /> | <img  width="220" height="200" src="https://user-images.githubusercontent.com/110104542/224234665-68d749b6-10ca-4385-b56b-1fdcb02e02fa.png"> |
+
+
+
+
+## Win or lose page
+| Desktop View | Mobile View |
+| ------ | ------ |
+| <img width="400" height="200" src="https://user-images.githubusercontent.com/110034571/222943651-9037607b-9572-4428-ae29-1fb8f923a076.png"  /> | <img   width="240" height="200" src="https://user-images.githubusercontent.com/110104542/224234975-f482b144-58f1-4c9b-b9d2-843a90d50d61.png"> |
+| <img  width="400" height="200" src="https://user-images.githubusercontent.com/110034571/222943654-9a4bfa04-9844-45ff-b659-fe032fb3664b.png"  /> | <img   width="270" height="200" src="https://user-images.githubusercontent.com/110104542/224235026-43ec4eeb-6655-43b7-a8dc-b573f532ace0.png"> |
+
 
 
 ## <a href="https://airbnd-clone-ba.vercel.app/" target="_blank">LIVE DEMO 💥</a>
+
